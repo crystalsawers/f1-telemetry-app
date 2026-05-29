@@ -15,3 +15,6 @@ steps:
 
 images:
   - "australia-southeast1-docker.pkg.dev/$PROJECT_ID/f1-stack/f1-telemetry-api:$COMMIT_SHA"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
