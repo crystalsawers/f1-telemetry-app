@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+monitoring/
+docker-compose.yml
+.git/
+.vscode/

@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Docker
+*.tar
+docker-compose.yml
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+
+# Monitoring stack (IMPORTANT - keep out of CI repo)
+monitoring/
+
+# Local development overrides
+*.local
